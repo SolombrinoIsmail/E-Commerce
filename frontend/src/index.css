@@ -52,7 +52,7 @@ a {
   text-decoration: none;
 }
 a:hover {
-  color: #ff8000;
+  color: red;
 }
 ul {
   padding: 0;
@@ -68,24 +68,24 @@ textarea,
 button {
   padding: 1rem;
   border-radius: 0.5rem;
-  border: 0.1rem #a4a4a4 solid;
+  border: 0.1rem gray solid;
   font-size: 1.6rem;
   font-family: Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 button {
-  background-color: #f8f8f8;
+  background-color: white;
   cursor: pointer;
 }
 input:hover,
 select:hover,
 textarea:hover,
 button:hover {
-  border: 0.1rem #404040 solid;
+  border: 0.1rem red solid;
 }
 button.primary {
-  background-color: #f0c040;
+  background-color: cornflowerblue;
 }
 button.block {
   width: 100%;
@@ -212,11 +212,11 @@ img.large {
 }
 /* Rating */
 .rating span {
-  color: #f0c040;
+  color: red;
   margin: 0.1rem;
 }
 .rating span:last-child {
-  color: #404040;
+  color: black;
 }
 /* Alert */
 .loading {
@@ -287,8 +287,8 @@ img.large {
   font-weight: bold;
 }
 .checkout-steps > div.active {
-  border-top-color: #f08000;
-  color: #f08000;
+  border-top-color: red;
+  color: white;
 }
 /* Table */
 .table {
